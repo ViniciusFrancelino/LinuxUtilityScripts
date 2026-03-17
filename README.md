@@ -72,7 +72,6 @@ Exemplo de agendamento:
 Isso executará o script a cada 6 horas.
 
 ---
-
 Antes de executar qualquer script em produção:
 
 - Revise o código
@@ -81,6 +80,25 @@ Antes de executar qualquer script em produção:
 - Teste primeiro em ambiente de homologação
 
 Alguns scripts podem impactar recursos do sistema ou rede.
+
+---
+
+## Estrutura do Projeto
+
+```
+linuxUtilityScripts/
+│
+├── maintenance/
+│   └── drop-cache.sh
+│
+├── network/
+│   └── openvpn-work-connect.sh
+│
+├── proxy-tests/
+│   └── apache-access-test.sh
+│
+└── README.md
+```
 
 ---
 
